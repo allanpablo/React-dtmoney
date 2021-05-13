@@ -6,30 +6,28 @@ export const Container = styled.div`
   gap: 2rem;
   margin-top: -8rem;
 
-  div{ 
+  div {
     background: var(--shape);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
     color: var(--text-title);
 
-    header{ 
+    header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-
     }
 
-    strong { 
-      display:block;
+    strong {
+      display: block;
       margin-top: 1rem;
       font-size: 2rem;
       line-height: 3rem;
-      font-weight:500;
+      font-weight: 500;
     }
-    &.highlight-background{
+    &.highlight-background {
       background: var(--green);
       color: #fff;
     }
   }
-  `
-; 
+`;
